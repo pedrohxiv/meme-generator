@@ -38,3 +38,14 @@
   background-color: green;
   color: white;
 }
+
+#images {
+  margin-top: 50px;
+}
+
+#images img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
