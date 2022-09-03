@@ -6,7 +6,7 @@ function elementText() {
 
 function uploadImage(event) {
   const reader = new FileReader();
-  reader.onload = function () {
+  reader.onload = () => {
     const output = document.getElementById('meme-image');
     output.src = reader.result;
   };
